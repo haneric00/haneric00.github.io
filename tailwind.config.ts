@@ -9,6 +9,7 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    
     colors: {
       transparent: "transparent",
       current: "currentColor",
@@ -16,11 +17,19 @@ const config: Config = {
       white: colors.white,
       primary: colors.neutral,
       secondary: colors.blue,
+      cyan: colors.cyan,
+      indigo: colors.indigo,
+
     },
-    extend: {},
+    extend: {
+      // backgroundImage: {
+      //   'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      // }
+    },
   },
   plugins: [],
 }
+
 export default config
 
 
