@@ -1,5 +1,11 @@
 export default function Home() {
-  return <Navbar />;
+  // return <Navbar />;
+  return (
+    <div>
+      <Navbar />
+      <Navbar />
+    </div>
+  )
 }
 
 function Navbar() {
