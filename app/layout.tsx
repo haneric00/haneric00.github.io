@@ -2,10 +2,11 @@ import type { Metadata } from 'next'
 import { Inter, Roboto, Poppins, Montserrat } from 'next/font/google'
 import './globals.css'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer';
 
 const roboto100 = Roboto({
   subsets: ["latin"],
-  weight: '100'
+  weight: '500'
 });
 
 const poppins100 = Poppins({ subsets: ["latin"], weight: '100'});
@@ -24,9 +25,10 @@ export default function RootLayout({children,}: {
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={roboto100.className}>
         <Navbar />
         {children}</body>
+        <Footer />
     </html>
   )
 }

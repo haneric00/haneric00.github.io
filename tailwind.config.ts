@@ -19,7 +19,9 @@ const config: Config = {
       secondary: colors.blue,
       cyan: colors.cyan,
       indigo: colors.indigo,
-
+      red: colors.red,
+      yellow: colors.yellow,
+      slate: colors.slate,
     },
     extend: {
       // backgroundImage: {

@@ -39,7 +39,7 @@ export default function Home() {
     <>
       <div className = "bg-gradient-to-r from-indigo-100 to-indigo-600 flex justify-evenly items-start h-screen">
         <div className='flex flex-col p-8 justify-end gap-2'>
-          <p className=' object-top text-center text-5xl '>Welcome to Kevin&apos;s Draft Picker!</p>
+          <p className='object-top text-center text-5xl font-bold'>Welcome to Kevin&apos;s Draft Picker!</p>
           <p className = 'text-center '>
             This is a fantasy draft picking tool. <br/>
             Please read the blog to learn more!
