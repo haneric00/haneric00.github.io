@@ -22,6 +22,7 @@ const config: Config = {
       red: colors.red,
       yellow: colors.yellow,
       slate: colors.slate,
+      purple: colors.purple,
     },
     extend: {
       // backgroundImage: {
