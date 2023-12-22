@@ -21,7 +21,7 @@ export default function Navbar() {
     //     </div>
     //   </nav>
 
-    <nav className="border-b sticky top-0 bg-slate-800 text-white border-transparent z-10">
+    <nav className="border-b sticky top-0 bg-slate-700 text-white border-transparent z-10">
       <div className="h-14 max-w-7xl p-4 mx-auto flex items-center justify-between">
         <Link href="/" className="font-medium text-lg md:hover:underline">
           Kevin's Fantasy Draft Picker
@@ -31,10 +31,10 @@ export default function Navbar() {
             <Link href="/blog">Blog</Link>
           </li>
           <li className="md:hover:underline">
-            <Link href="/History">History</Link>
+            <Link href="/draft">Join Draft</Link>
           </li>
           <li className="md:hover:underline">
-            <Link href="/draft">Start Draft</Link>
+            <Link href="/start">Start Draft</Link>
           </li>
         </ul>
       </div>

@@ -18,7 +18,7 @@ export function FilledButton({ children }: {
     );
   }
   
-  function DefaultButton({ children, style }: {
+function DefaultButton({ children, style }: {
     children: React.ReactNode,
     style: any
   }) {

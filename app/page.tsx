@@ -13,26 +13,6 @@ import { Editor } from './editor';
 import Navbar from './components/Navbar';
 
 
-interface AppState {
-  // will probably need something here
-  availPicks: string[];
-  Drafters: string[];
-  currDrafter: string;
-  DraftId: number;
-  numRounds: number;
-  page: Page;
-}
-
-type Page = "start" | "draft";
-
-export type Draft = {
-  DraftId: number;
-  DraftRounds: number;
-  DraftPicks: string[];
-  Drafters: string[];
-}
-
-
 export default function Home() {
   
   return (
@@ -46,13 +26,16 @@ export default function Home() {
           </p>
           <div className='flex justify-center gap-3 my-2'>
             <FilledButton><a href='/blog'>Read my blog</a></FilledButton>
-            <FilledButton><a href='/photos'>Check out my photos</a></FilledButton>
-          </div>
-          
-          <div className = " flex gap-4 place-content-center">
-            {/* <label>Drafter: <input></input></label> */}
+            {/* <FilledButton><a href='/photos'>Check out my photos</a></FilledButton> */}
             <FilledButton><a href='/draft'>Join existing draft</a></FilledButton>
-              {/* <label>Draft ID: <input type="number"></input></label> */}
+            <FilledButton><a href ='/start'>Start a new draft</a></FilledButton>
+          </div>
+          <div className="h-screen items-center justify-center">
+             <img
+               src="https://media.pff.com/2023/08/fantasy-cover.jpg?w=956&h=538"
+               alt="Description of the image"
+               className=" w-956 h-538 object-cover"
+             />
           </div>
         </div>
       </div>
