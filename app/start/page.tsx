@@ -4,7 +4,7 @@ import { FilledButton, OutlinedButton } from "../components/Buttons";
 
 
 
-export default function Draft() {
+export default function Page() {
  
     return (
      //   <div className="content-center grid grid-cols-1 md:grid-cols-2 bg-gradient-to-r from-indigo-600 to-indigo-100 justify-evenly items-start h-screen p-8">
@@ -40,14 +40,16 @@ export default function Draft() {
      //     </form>
      //   </div>
      // </div> 
-   <div className="bg-gradient-to-r from-indigo-600 to-indigo-100 flex flex-col py-8 justify-evenly">
+   <div className="bg-gradient-to-r from-indigo-600 to-indigo-100 flex flex-col  justify-evenly">
         <div className="object-left-top p-8 justify-end gap-2">
             <label htmlFor="createNewDraft" className="text-white text-3xl justify-center place-items-start ">
             Create New Draft:
             </label>
-            <p> Drafter name</p>
+            <p> Drafter name is your username</p>
+            <p> Please set an appropriate number of rounds</p>
+            <p> Please make sure that the number of options available is equal to the number of rounds times the number of drafters</p>
         </div>
-     <div className="content-center grid grid-cols-1 md:grid-cols-2 bg-gradient-to-r from-indigo-600 to-indigo-100 justify-evenly items-start h-screen p-8">
+     <div className=" grid grid-cols-1 md:grid-cols-2 bg-gradient-to-r from-indigo-600 to-indigo-100 justify-evenly items-start h-screen p-8">
      
          <div className="flex flex-col gap-8 place-content-center space-y-8">
        <form>
